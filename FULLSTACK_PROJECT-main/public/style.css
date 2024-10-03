@@ -1,0 +1,106 @@
+/* public/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #results {
+    margin-top: 20px;
+  }
+  
+  .book {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    border:3px solid red;
+  }
+  
+  .book img {
+    max-width: 250px;
+    margin-right: 10px;
+  }
+  
+  .book div {
+    flex: 1;
+  }
+  
+  .book h2 {
+    margin-bottom: 5px;
+  }
+  
+  .book a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: black;
+    box-shadow: 2px 2px 4px blue ;
+    padding: 5px 10px;
+    border-radius: 20px;
+  }
+  
+  .book a:hover {
+    color: white;
+    background-color: gray;
+  }
+  .home-container {
+    position: absolute;
+    top:20px;
+    right:20px
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .logout-button {
+    background-color:gray;
+    color: black;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .logout-button:hover {
+    background-color:black;
+    color: whitesmoke;
+  }
+  
